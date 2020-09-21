@@ -1,0 +1,241 @@
+/*
+Template Name: crosstown
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+@media (max-width: 1199px){
+    .tv-storyofgym > h3{
+        margin: 10px 0;
+    }
+    #myCarousel .carousel-indicators {
+        bottom: 0;
+    }
+    #myCarousel .carousel-inner {
+        left: 14%;
+    }
+    .tv-features-content h4 {
+        font-size: 16px;
+    }
+    .tv-price{
+        text-align: center;
+    }
+    .tv-price a{
+        float: none;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 991px){
+    .tv-paddingT100 {
+        padding-top: 80px;
+    }
+    #service .tv-block-heading, #gallery .tv-block-heading, #testimonial .tv-block-heading, #package .tv-block-heading, #team .tv-block-heading, #blog .tv-block-heading, #trainer .tv-block-heading {
+        margin-bottom: 80px;
+    }
+    .tv-top-header {
+        margin: 35px 0;
+        padding: 20px 0;
+    }
+    .navbar {
+        padding: 27px 0 !important;
+        text-align: center;
+    }
+    .navbar-nav, .navbar-nav > li, .navbar-header{
+        float:none;
+    }
+    .navbar-right {
+        margin-top: 10px;
+    }
+    .tv-banner {
+        min-height: 400px;
+    }
+    .tv-banner-content h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .tv-banner-content h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px 0;
+    }
+    .tv-about-content {
+        left: 10%;
+        right: 10%;
+        text-align: center;
+    }
+    .tv-about-content .tv-block-heading hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tv-services-list > li:nth-child(n+1) .tv-service-content{
+        margin-bottom: 50px;
+    }
+    .tv-footer-links h2{
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+    .tv-services-list > li:nth-last-child(-n+2) .tv-service-content {
+        margin-bottom: 0;
+    }
+    .tv-facility-content {
+        margin: 40px 0 0;
+    }
+    .tv-row-flex{
+        display: inline;
+    }
+    .tv-paddingTB-150{
+        padding: 150px 0; 
+    }
+    .tv-paddingTB-200{
+        padding: 200px 0;
+    }
+    #myCarousel .carousel-indicators {
+        bottom: -140px;
+    }
+    .tv-display-nn{
+        display: none;
+    }
+    .tv-body-index {
+        left: 10%;
+        right: 10%;
+    }
+    .tv-trainer-image img {
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+        background: #ff5a09;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #ff5a09;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .tv-top-header {
+        margin: 23px 0;
+    }
+    .nav > li, .nav > li > a{
+        display: block;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color: transparent;
+    }
+    .nav.navbar-nav.navbar-right{
+        background: #fff;
+    }
+    .tv-block-heading > h2 {
+        font-size: 30px;
+    }
+    .tv-about-banner{
+        min-height: 420px;
+    }
+    .tv-random-banner{
+        min-height: 450px;
+    }
+    .tv-random-banner {
+        min-height: 650px;
+    }
+    .tv-info-content, .tv-package-content, .tv-opening-hour{
+        margin-bottom: 30px;
+    }
+    .tv-opening-hour h2, .tv-footer-content{
+        text-align: center;
+    }
+    .tv-hours-list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tv-timing-content{
+        padding: 60px 0;
+    }
+}
+@media (max-width: 500px){
+    .width-100{
+        width:100%;
+    }
+    .tv-banner-content h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .tv-banner-content h4 {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 10px 0 20px;
+    }
+    .tv-banner {
+        min-height: 280px;
+    }
+    .tv-about-banner {
+        min-height: 450px;
+    }
+    #myCarousel .carousel-indicators {
+        bottom: -170px;
+    }
+    .tv-paddingTB-150 {
+        padding: 170px 0;
+    }
+    .tv-block-heading > h2 {
+        font-size: 27px;
+    }
+    .tv-package-details{
+        text-align: center;
+    }
+    .category_hover, .tv-trainer-hover{
+        transform: scale(1);
+    }
+    .tab-image:hover .category_hover, .tv-trainer-image:hover .tv-trainer-hover {
+        transform: scale(0.9);
+    }
+}
+@media (max-width: 400px){
+    .width-100perc{
+        width: 100%;
+    }
+    .tv-banner-content h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .tv-banner-content .tv-site-btn2 {
+        margin-top: 10px;
+    }
+    .tv-about-banner {
+        min-height: 600px;
+    }
+    .tv-services-list > li:nth-child(n+1) .tv-service-content {
+        margin-bottom: 50px;
+    }
+    .tv-services-list > li:nth-last-child(-n+1) .tv-service-content {
+        margin-bottom: 0;
+    }
+    .tv-random-banner {
+        min-height: 750px;
+    }
+    #gallery .nav-tabs > li > a{
+        font-size: 14px;
+        padding: 6px;
+    }
+    .tv-paddingTB-150 {
+        padding: 210px 0;
+    }
+    #myCarousel .carousel-indicators {
+        bottom: -210px;
+    }
+    .tv-storyofgym > h3 {
+        font-size: 16px;
+    }
+    .tv-block-heading > h2 {
+        font-size: 25px;
+    }
+    .tv-free-trial > h2 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+    .tv-hours-list {
+        width: 280px;
+    }
+}

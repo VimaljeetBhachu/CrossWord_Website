@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title> Login for BookStore </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+      
+      function validate()
+     {
+      
+            var Username=document.getElementById('Username').value;
+            var Name=document.getElementById('Name').value;
+            var Mobile=document.getElementById('Mobile').value;
+            var Password=document.getElementById('Password').value;
+            var ConfirmPassword=document.getElementById('ConfirmPassword').value;
+            
+            if(Username.length<1)
+            {
+              alert("Username Is Required!!");
+              return false;
+            }
+            if(Name.length<1)
+            {
+                alert("Name Is Required!!");
+                return false;
+            }
+            if(Mobile.length<1)
+            {
+                alert("Mobile Is Required!!");
+                return false;
+            }
+            if(Password.length<1)
+            {
+              alert("Password Is Required!!");
+              return false;
+            }
+            if(ConfirmPassword.length<1)
+            {
+              alert("ConfirmPassword Is Required!!");
+              return false;
+            }
+            
+            if(Password!=ConfirmPassword)
+            {
+                alert("Passwords should match!!");
+                return false;             
+            }
+            if(Mobile.length!=10 || Mobile.length!=11)
+            {
+              alert("Enter number correctly!!");
+              return false;
+            }
+            if(isNaN(Mobile))
+            {
+
+               alert("Only Enter Numric Values");
+               return false;              
+            }
+            return true;
+      
+     }
+     function checkname()
+     {
+
+             var Username=document.getElementById('Username').value;
+             if(Username.length<1)
+             {
+                document.getElementById('spn').innerHTML="*";
+                document.getElementById('spn').style.color="red";
+              
+             }  
+             else
+             {
+               document.getElementById('spn').innerHTML="";
+             }      
+     }
+    </script>
+
+</head>
+
+    <body>
+      <div class="main">
+     
+      <div class="login-box">
+        <img src="avatar.png" class="avatar">
+                    <h1>User Login</h1>
+          <form action="logiin.php" method="post">
+            <p>
+            <label>Username</label>
+            <input type="text" id= "Username" name="Username" placeholder="Enter Username">
+            </p>
+            <p>
+            <label>Password</label>
+            <input type="password" id="Password" name="Password" placeholder="Enter Password">
+            </p>
+            <input type="submit" id="lg" name="Login" value="Login" onclick="return validate()">
+            <div class="dfp">
+            <a id="fp" href="#">Forgot password?</a>
+            </div>
+            <div class="sg">
+            <p>Don't have an account!<a href="signin.html">      Sign Up Here</a></p>
+            </div>
+         </form>   
+      </div>
+     </div>
+    </body>
+</html>
